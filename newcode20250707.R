@@ -43,7 +43,7 @@ pts_sf_jittered <- pts_sf_jittered %>%
     )
   )
 
-register_google(key = "AIzaSyCMcZy0YXaHwMRuIGY7L3HZs37gqSTZpos")
+register_google(key = "Your google map key")
 map <- get_map(location = c(lon = 114, lat = 30), zoom = 5, maptype = "satellite")
 get_map
 ggmap(map) +
