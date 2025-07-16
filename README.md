@@ -30,7 +30,11 @@ The script is designed to:
 | `README.md` | This documentation file |
 
 ---
+## 🔒 Data Availability
 
+Due to data usage agreements and publication embargo policies, the raw datasets (`RR.csv` and `LC50.csv`) used in this study are **not publicly available** at this time.
+
+---
 ## ⚙️ Dependencies
 
 This script requires R (version ≥ 4.1) and the following R packages:
@@ -50,3 +54,5 @@ rnaturalearth
 rnaturalearthdata
 broom
 dplyr
+
+
